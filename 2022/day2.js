@@ -1,4 +1,5 @@
-// part 1
+// part 1, reconstructed from memory since
+// I could not find the original. Might be less hacky than original
 document.body.innerText.trim().split('\n').map(v => ({
     'A X': 1+3,
     'A Y': 2+6,

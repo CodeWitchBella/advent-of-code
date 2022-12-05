@@ -1,4 +1,4 @@
-// part 1
+// part 1, ze original
 document.body.innerText.trim().split('\n').map(v => v.split('')).map(v => {
   let a = new Set(v.slice(v.length/2))
   for (const i of v.slice(0, v.length/2)) if(a.has(i)) return i
